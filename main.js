@@ -350,7 +350,7 @@ app.post('/send-notification', async (req, res) => {
 
   try {
       const auth = new GoogleAuth({
-          keyFile: 'generate-token.js',
+          keyFile: 'contact-52ec9-firebase-adminsdk-l2tjc-1ccfaa0183.json',
           scopes: ['https://www.googleapis.com/auth/cloud-platform'],
       });
 
